@@ -1,0 +1,13 @@
+{
+    "name": "cwkj/phpqrcode",
+    "description": "这个是官网原生版本，因为官网不再支持composer安装，所以我们自己创建了个包。",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"cwkj\\phpqrcode\\":"src/"
+		}
+	}
+}
